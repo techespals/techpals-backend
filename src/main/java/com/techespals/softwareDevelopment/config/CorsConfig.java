@@ -17,7 +17,7 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
                         .allowedOrigins(
-                                "https://techpals-webpage.vercel.app/"
+                                "https://techespals.com"
                         )
                         .allowedMethods("*");
             }
